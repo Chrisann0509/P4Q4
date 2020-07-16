@@ -18,7 +18,8 @@ public class Student {
         
     }
     public Student(String studentId,String name){
-        
+        this.studentId=studentId;
+        this.name=name;
     }
     public void setStudentId(String studentId){
         this.studentId=studentId;
